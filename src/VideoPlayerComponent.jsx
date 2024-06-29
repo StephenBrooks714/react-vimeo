@@ -12,7 +12,7 @@ const VimeoPlayerComponent = ({ videoId = "https://vimeo.com/966270487" }) => {
             clientSecret={clientSecret}
             auth={auth}
             authTOken={authToken}
-            className={"w-100"}
+            className={"w-100 h-100"}
             autoplay={true}
             video={videoId}
             onVolumeChange={function(event) {

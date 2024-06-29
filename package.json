@@ -10,13 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@descope/node-sdk": "^1.6.8",
+    "@descope/react-sdk": "^2.0.39",
     "@u-wave/react-vimeo": "^0.9.11",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
     "bootstrap": "^5.3.3",
     "dotenv": "^16.4.5",
     "dotenv-webpack": "^8.1.0",
+    "mongoose": "^8.4.4",
+    "mongoose-unique-validator": "^5.0.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.3",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

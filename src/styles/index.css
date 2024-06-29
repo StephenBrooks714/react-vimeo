@@ -1,0 +1,41 @@
+.bg-light-shadow-transparent-gradient-shadow {
+  background: rgba(244, 244, 244, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 20px;
+  border: 1px solid rgba(244, 244, 244, 0.8);
+}
+.bg-light-shadow-transparent-gradient-shadow .logo {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .bg-light-shadow-transparent-gradient-shadow .logo {
+    display: none;
+  }
+}
+.bg-light-shadow-transparent-gradient-shadow .link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .bg-light-shadow-transparent-gradient-shadow .link {
+    display: none;
+  }
+}
+
+.hidden-menu {
+  display: none;
+}
+@media (max-width: 768px) {
+  .hidden-menu {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
